@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="/jquery/jquery/jquery-1.12.4.js"></script>
+
+<title>Insert title here</title>
+</head>
+
+<body>
+	<p id="p1"> abcdefghijklmn </p>
+	<p id="p2"> 학교종이 땡땡땡 abcdefg </p>
+</body>
+
+<script type="text/javascript">
+
+var html = $("#p1").text();
+console.log(html)
+/* console.log($("#p1"))/*  이건 원래 안되는건지 궁금 .  */ 
+$("#p1").text("하하하하") /* 원래의 문자로 받았다가 . 자바스크립트를 만나면 바꿔주는것  */
+</script>
+<script type="text/javascript">
+var str1= $("#p1").text("abcd")
+
+
+</script>	
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+document.write("header");
+</script>
+<title>Insert title here</title>
+</head>
+<body>
+<!-- <script type="text/javascript">
+var myVar; 변수선언 =var 
+var myVar2=null;
+
+alert(myVar==myVar2);
+alert(myVar===myVar2);
+
+var mvar1 = "test"; 변수타입지정없이 사용가능 
+alert(typeof mvar1)
+var mvar2 = 20;
+console.log(typeof mvar2) 어럴트창이아니라 콘솔의 로그로 찍는 방법 
+-- 전역변수의 선언과 지역변수의 사용 
+var name = "global";  --지역 (var 붙여서 사용한것 )
+function checkScope(){
+	name = "local"; --전역변수 
+	var name2 = "local99";
+	console.log(name);
+	console.log(name2);
+}
+checkScope();
+console.log(name);
+console.log(name2);
+--변수안에 모든것을 담을수 있다 
+
+ var array=[1,"string",true,function(){},{},[2,3]]
+ 
+ console.log(array[0])
+  console.log(array[1])
+   console.log(array[2])
+    console.log(array[3])
+     console.log(array[4]+"{}")
+        console.log(array[5]+"[]")
+--변수안에 값을 넣어서 넘겨줄때 사용할것 
+=이아니라 : 를쓰고 , ;로 구분하는게아니라 , 로구분한다. 
+ var gustbookVo ={
+		 no :1,
+		 name:"이은지",
+		 password :"123",
+		 content:"안녕하세요 "
+ };
+ console.log(gustbookVo.no);
+</script> -->
+<div>
+<input type= "button" value="버튼" id="btn1"/>
+<h1 id="btn1D"> 이름출력영역 </h1>
+
+window.onload= function(){}
+</div>
+	<ul>
+		<li> 순서1 순서1 순서1 순서1 순서1 </li>
+		<li> 순서2 순서2 순서2 순서2 순서2 </li>
+		<li> 순서3 순서3 순서3 순서3 순서3 </li>
+		<li> 순서4 순서4 순서4 순서4 순서4 </li>
+	</ul>
+<script type="text/javascript">
+
+ 
+</script>	
+
+	<p> 텍스트1 텍스트1 텍스트1 텍스트1 텍스트1 </p>
+	<p> 텍스트2 텍스트2 텍스트2 텍스트2 텍스트2 </p>
+	<p> 텍스트3 텍스트3 텍스트3 텍스트3 텍스트3 </p>
+	<p> 텍스트4 텍스트4 텍스트4 텍스트4 텍스트4 </p>
+
+</body>
+	
+	<script type="text/javascript">
+	window.onload=function(){
+		 
+		var testbtn1 = document.getElementById ("btn1"); /* 아이디가 btn1인애를 찾아서 태그하나를 통채로 넣어버림  */
+		var testbtn1D= document.getElementById("btn1D");
+		
+		testbtn1.onclick=function(){
+			testbtn1D.innerHTML="<font color='red'>홍길동 </font>";
+		}
+	}
+
+</script>
+
+
+</html>
